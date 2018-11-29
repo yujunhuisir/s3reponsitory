@@ -70,10 +70,10 @@ public class FileTest {
 	        
 	        
 	        
-	        AmazonS3Client client = new AmazonS3Client(credentials);
+	    //    AmazonS3Client client = new AmazonS3Client(credentials);
 	        
-	        S3Object o = client.getObject("", "");
-	        S3ObjectInputStream s3is = o.getObjectContent();
+	     //   S3Object o = client.getObject("", "");
+	     //   S3ObjectInputStream s3is = o.getObjectContent();
 	       // body = new byte[(int)o.getObjectMetadata().getContentLength()];
 	    //    s3is.read(body);
 	     //   s3is.close();
